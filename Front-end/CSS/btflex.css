@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header > div{
+    min-width: 200px;
+}
+
+.header .logo{
+}
+.header .profile{
+}
+
+.header .menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .menu ul li{
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    line-height: 1.6;
+    font-size: 1.8rem;
+}
+/* đứa con cuối cùng --> itema cuối */
+.header .menu ul li:last-child{
+    margin: 0px;
+}
+/* khi rê chuột vào thì item đổi màu */
+.header .menu ul li:hover{
+    border-bottom: 2px solid palevioletred;
+}
+
+.header .profile ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header .profile ul li{
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    line-height: 1.6;
+    font-size: 1.8rem;
+}
