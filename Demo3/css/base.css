@@ -29,6 +29,7 @@
     margin: 0px 5px 0px 0px;
     line-height: 1.6;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .header .menu ul li:last-child{
@@ -48,15 +49,43 @@
     justify-content: space-between;
     padding-top: 1px;
     padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header2 > div{
     flex-grow: 1;
 }
 
+.header2 div img{
+    width: 100%;
+}
+
+.header2-2{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
 .header3{
-    padding-left: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 50px;
+}
+
+.header3 > div{
+    flex-grow: 1;
+}
+
+.header3 div img{
+    width: 100%;
+}
+
+.header3-2{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
 }
 
 .header4{
@@ -72,6 +101,34 @@
     font-weight: bold;
 }
 
-.header2 div img{
-    width: 100%;
+.header5{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text1{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+
+.text1-1{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 130px;
+}
+
+.text2{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 200px;
 }
